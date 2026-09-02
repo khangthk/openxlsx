@@ -1,8 +1,7 @@
 Type: Package
 Package: openxlsx
 Title: Read, Write and Edit xlsx Files
-Version: 4.2.7.1
-Date: 2024-09-19
+Version: 4.2.9
 Authors@R: 
     c(person(given = "Philipp",
              family = "Schauberger",
@@ -57,8 +56,11 @@ Imports:
 Suggests:
     curl,
     formula.tools,
+    ggplot2,
+    jpeg,
     knitr,
     rmarkdown,
+    survival,
     testthat
 LinkingTo: 
     Rcpp
@@ -66,7 +68,6 @@ VignetteBuilder:
     knitr
 Encoding: UTF-8
 Language: en-US
-RoxygenNote: 7.3.2
 Collate: 
     'CommentClass.R'
     'HyperlinkClass.R'
@@ -103,3 +104,4 @@ Collate:
     'zzz.R'
 Roxygen: list(markdown = TRUE)
 LazyData: true
+Config/roxygen2/version: 8.1.0
